@@ -1,5 +1,5 @@
 # Food-VR-Game
-##人物操作：
+## 人物操作：
 
 - 人：上下左右键对应视野的左右上下移动（改成vr版本是头盔自由旋转视野）
 
@@ -9,7 +9,7 @@
     - 右手碰到物体，ui上会显示touch obj的信息；碰到的时候按鼠标左键可以抓住物体，ui上会显示grab obj的信息；
     - 抓取方式：按着鼠标左键的同时按JKILNM，松开鼠标左键放下物体，对应脚本在RightHandCtl
 
-##物体：
+## 物体：
 
 - 场景中可抓取的物体都有rigidbody()、box collider，靠unity的物理系统做抓取效果
 - 用于判断状态切换时的物体要挂上updateState脚本；总的状态控制在StateControl脚本
