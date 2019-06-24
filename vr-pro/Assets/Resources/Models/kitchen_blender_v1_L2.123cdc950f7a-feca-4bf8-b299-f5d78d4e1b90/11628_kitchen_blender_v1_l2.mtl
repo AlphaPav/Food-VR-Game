@@ -1,0 +1,100 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 16.11.2011 15:49:35
+
+newmtl kitchen_blender_glass
+	Ns 30.0000
+	Ni 3.0000
+	d 0.1900
+	Tr 0.8100
+	Tf 0.1900 0.1900 0.1900 
+	illum 2
+	Ka 0.0471 0.1255 0.2118
+	Kd 0.0471 0.1255 0.2118
+	Ks 0.4410 0.4410 0.4410
+	Ke 0.0000 0.0000 0.0000
+
+newmtl kitchen_blender_blue
+	Ns 51.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0980 0.2824
+	Kd 0.0000 0.0980 0.2824
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl kitchen_blender_panel
+	Ns 51.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.5490 0.5490 0.5490
+	Ke 0.0000 0.0000 0.0000
+	map_Ka kitchen_blender_front_panel.jpg
+	map_Kd kitchen_blender_front_panel.jpg
+
+newmtl kitchen_blender_black
+	Ns 51.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0275 0.0275 0.0275
+	Kd 0.1059 0.1059 0.1059
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl kitchen_blender_metal
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1765 0.1765 0.1765
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl kitchen_blender_grey
+	Ns 51.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5255 0.5255 0.5255
+	Kd 0.5255 0.5255 0.5255
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl kitchen_blender_marks
+	Ns 31.0000
+	Ni 3.0000
+	d 0.2300
+	Tr 0.7700
+	Tf 0.2300 0.2300 0.2300 
+	illum 2
+	Ka 0.0471 0.1255 0.2118
+	Kd 0.0471 0.1255 0.2118
+	Ks 0.4680 0.4680 0.4680
+	Ke 0.0000 0.0000 0.0000
+
+newmtl kitchen_blender_white
+	Ns 51.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.9333 0.9333 0.9333
+	Kd 0.9333 0.9333 0.9333
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
