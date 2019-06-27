@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 9c801826a147865458192f703ab8c274
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 27 Sauce 1
+    100002: 27 Sauce 10
+    100004: 27 Sauce 2
+    100006: 27 Sauce 3
+    100008: 27 Sauce 4
+    100010: 27 Sauce 5
+    100012: 27 Sauce 6
+    100014: 27 Sauce 7
+    100016: 27 Sauce 8
+    100018: 27 Sauce 9
+    100020: 28 Jam 1
+    100022: 28 Jam 2
+    100024: 28 Jam 3
+    100026: 28 Jam 4
+    100028: 28 Jam 5
+    100030: 28 Sauce 1
+    100032: 28 Sauce 2
+    100034: 28 Sauce 3
+    100036: 28 Sauce 4
+    100038: 28 Sauce 5
+    100040: 29 Baking mix can 1
+    100042: 29 Baking mix can 2
+    100044: 29 Baking mix can 3
+    100046: 29 Baking mix can 4
+    100048: 29 Baking mix can 5
+    100050: 29 Baking mix can 6
+    100052: 29 Baking mix can 7
+    100054: 29 Baking mix can 8
+    100056: 29 Baking mix can 9
+    100058: 30 Cereal box 1
+    100060: 30 Cereal box 10
+    100062: 30 Cereal box 11
+    100064: 30 Cereal box 12
+    100066: 30 Cereal box 2
+    100068: 30 Cereal box 3
+    100070: 30 Cereal box 4
+    100072: 30 Cereal box 5
+    100074: 30 Cereal box 6
+    100076: 30 Cereal box 7
+    100078: 30 Cereal box 8
+    100080: 30 Cereal box 9
+    100082: 31 Baking mix box 1
+    100084: 31 Baking mix box 10
+    100086: 31 Baking mix box 11
+    100088: 31 Baking mix box 2
+    100090: 31 Baking mix box 3
+    100092: 31 Baking mix box 4
+    100094: 31 Baking mix box 5
+    100096: 31 Baking mix box 6
+    100098: 31 Baking mix box 7
+    100100: 31 Baking mix box 8
+    100102: 31 Baking mix box 9
+    100104: 32 Perrier water L
+    100106: 32 Perrier water M
+    100108: 32 Perrier water S
+    100110: 33 Vittel water 1
+    100112: 33 Vittel water 2
+    100114: 33 Vittel water 3
+    100116: 33 Vittel water 4
+    100118: 34 Juice bottle 1
+    100120: 34 Juice bottle 2
+    100122: 34 Juice bottle 3
+    100124: 34 Juice bottle 4
+    100126: 34 Juice bottle 5
+    100128: 34 Juice bottle 6
+    100130: 34 Juice bottle 7
+    100132: 34 Juice bottle 8
+    100134: 34 Juice bottle 9
+    100136: 35 Coca-Cola bottle
+    100138: 35 Coca-Cola can
+    100140: //RootNode
+    100142: polySurface1
+    400000: 27 Sauce 1
+    400002: 27 Sauce 10
+    400004: 27 Sauce 2
+    400006: 27 Sauce 3
+    400008: 27 Sauce 4
+    400010: 27 Sauce 5
+    400012: 27 Sauce 6
+    400014: 27 Sauce 7
+    400016: 27 Sauce 8
+    400018: 27 Sauce 9
+    400020: 28 Jam 1
+    400022: 28 Jam 2
+    400024: 28 Jam 3
+    400026: 28 Jam 4
+    400028: 28 Jam 5
+    400030: 28 Sauce 1
+    400032: 28 Sauce 2
+    400034: 28 Sauce 3
+    400036: 28 Sauce 4
+    400038: 28 Sauce 5
+    400040: 29 Baking mix can 1
+    400042: 29 Baking mix can 2
+    400044: 29 Baking mix can 3
+    400046: 29 Baking mix can 4
+    400048: 29 Baking mix can 5
+    400050: 29 Baking mix can 6
+    400052: 29 Baking mix can 7
+    400054: 29 Baking mix can 8
+    400056: 29 Baking mix can 9
+    400058: 30 Cereal box 1
+    400060: 30 Cereal box 10
+    400062: 30 Cereal box 11
+    400064: 30 Cereal box 12
+    400066: 30 Cereal box 2
+    400068: 30 Cereal box 3
+    400070: 30 Cereal box 4
+    400072: 30 Cereal box 5
+    400074: 30 Cereal box 6
+    400076: 30 Cereal box 7
+    400078: 30 Cereal box 8
+    400080: 30 Cereal box 9
+    400082: 31 Baking mix box 1
+    400084: 31 Baking mix box 10
+    400086: 31 Baking mix box 11
+    400088: 31 Baking mix box 2
+    400090: 31 Baking mix box 3
+    400092: 31 Baking mix box 4
+    400094: 31 Baking mix box 5
+    400096: 31 Baking mix box 6
+    400098: 31 Baking mix box 7
+    400100: 31 Baking mix box 8
+    400102: 31 Baking mix box 9
+    400104: 32 Perrier water L
+    400106: 32 Perrier water M
+    400108: 32 Perrier water S
+    400110: 33 Vittel water 1
+    400112: 33 Vittel water 2
+    400114: 33 Vittel water 3
+    400116: 33 Vittel water 4
+    400118: 34 Juice bottle 1
+    400120: 34 Juice bottle 2
+    400122: 34 Juice bottle 3
+    400124: 34 Juice bottle 4
+    400126: 34 Juice bottle 5
+    400128: 34 Juice bottle 6
+    400130: 34 Juice bottle 7
+    400132: 34 Juice bottle 8
+    400134: 34 Juice bottle 9
+    400136: 35 Coca-Cola bottle
+    400138: 35 Coca-Cola can
+    400140: //RootNode
+    400142: polySurface1
+    2100000: cap
+    2100002: glass
+    2100004: label
+    2100006: sauce
+    2100008: phong1
+    2100010: jam
+    2100012: phong2
+    2100014: phong3
+    2100016: phong4
+    2100018: phong5
+    2100020: top1
+    2100022: steel
+    2100024: top
+    2100026: box 10
+    2100028: box 8
+    2100030: box 1
+    2100032: box 3
+    2100034: box 7
+    2100036: box 2
+    2100038: box 4
+    2100040: box 5
+    2100042: box 6
+    2100044: box 9
+    2100046: box 11
+    2100048: box 12
+    2100050: water
+    2100052: phong6
+    2100054: phong7
+    2100056: phong8
+    2100058: plastic
+    2100060: phong9
+    2100062: juice
+    2100064: sticker
+    2100066: phong10
+    2100068: phong11
+    2100070: phong12
+    2100072: phong13
+    2100074: cola
+    2300000: 27 Sauce 1
+    2300002: 27 Sauce 10
+    2300004: 27 Sauce 2
+    2300006: 27 Sauce 3
+    2300008: 27 Sauce 4
+    2300010: 27 Sauce 5
+    2300012: 27 Sauce 6
+    2300014: 27 Sauce 7
+    2300016: 27 Sauce 8
+    2300018: 27 Sauce 9
+    2300020: 28 Jam 1
+    2300022: 28 Jam 2
+    2300024: 28 Jam 3
+    2300026: 28 Jam 4
+    2300028: 28 Jam 5
+    2300030: 28 Sauce 1
+    2300032: 28 Sauce 2
+    2300034: 28 Sauce 3
+    2300036: 28 Sauce 4
+    2300038: 28 Sauce 5
+    2300040: 29 Baking mix can 1
+    2300042: 29 Baking mix can 2
+    2300044: 29 Baking mix can 3
+    2300046: 29 Baking mix can 4
+    2300048: 29 Baking mix can 5
+    2300050: 29 Baking mix can 6
+    2300052: 29 Baking mix can 7
+    2300054: 29 Baking mix can 8
+    2300056: 29 Baking mix can 9
+    2300058: 30 Cereal box 1
+    2300060: 30 Cereal box 10
+    2300062: 30 Cereal box 11
+    2300064: 30 Cereal box 12
+    2300066: 30 Cereal box 2
+    2300068: 30 Cereal box 3
+    2300070: 30 Cereal box 4
+    2300072: 30 Cereal box 5
+    2300074: 30 Cereal box 6
+    2300076: 30 Cereal box 7
+    2300078: 30 Cereal box 8
+    2300080: 30 Cereal box 9
+    2300082: 31 Baking mix box 1
+    2300084: 31 Baking mix box 10
+    2300086: 31 Baking mix box 11
+    2300088: 31 Baking mix box 2
+    2300090: 31 Baking mix box 3
+    2300092: 31 Baking mix box 4
+    2300094: 31 Baking mix box 5
+    2300096: 31 Baking mix box 6
+    2300098: 31 Baking mix box 7
+    2300100: 31 Baking mix box 8
+    2300102: 31 Baking mix box 9
+    2300104: 32 Perrier water L
+    2300106: 32 Perrier water M
+    2300108: 32 Perrier water S
+    2300110: 33 Vittel water 1
+    2300112: 33 Vittel water 2
+    2300114: 33 Vittel water 3
+    2300116: 33 Vittel water 4
+    2300118: 34 Juice bottle 1
+    2300120: 34 Juice bottle 2
+    2300122: 34 Juice bottle 3
+    2300124: 34 Juice bottle 4
+    2300126: 34 Juice bottle 5
+    2300128: 34 Juice bottle 6
+    2300130: 34 Juice bottle 7
+    2300132: 34 Juice bottle 8
+    2300134: 34 Juice bottle 9
+    2300136: 35 Coca-Cola bottle
+    2300138: 35 Coca-Cola can
+    2300140: polySurface1
+    3300000: 27 Sauce 1
+    3300002: 27 Sauce 10
+    3300004: 27 Sauce 2
+    3300006: 27 Sauce 3
+    3300008: 27 Sauce 4
+    3300010: 27 Sauce 5
+    3300012: 27 Sauce 6
+    3300014: 27 Sauce 7
+    3300016: 27 Sauce 8
+    3300018: 27 Sauce 9
+    3300020: 28 Jam 1
+    3300022: 28 Jam 2
+    3300024: 28 Jam 3
+    3300026: 28 Jam 4
+    3300028: 28 Jam 5
+    3300030: 28 Sauce 1
+    3300032: 28 Sauce 2
+    3300034: 28 Sauce 3
+    3300036: 28 Sauce 4
+    3300038: 28 Sauce 5
+    3300040: 29 Baking mix can 1
+    3300042: 29 Baking mix can 2
+    3300044: 29 Baking mix can 3
+    3300046: 29 Baking mix can 4
+    3300048: 29 Baking mix can 5
+    3300050: 29 Baking mix can 6
+    3300052: 29 Baking mix can 7
+    3300054: 29 Baking mix can 8
+    3300056: 29 Baking mix can 9
+    3300058: 30 Cereal box 1
+    3300060: 30 Cereal box 10
+    3300062: 30 Cereal box 11
+    3300064: 30 Cereal box 12
+    3300066: 30 Cereal box 2
+    3300068: 30 Cereal box 3
+    3300070: 30 Cereal box 4
+    3300072: 30 Cereal box 5
+    3300074: 30 Cereal box 6
+    3300076: 30 Cereal box 7
+    3300078: 30 Cereal box 8
+    3300080: 30 Cereal box 9
+    3300082: 31 Baking mix box 1
+    3300084: 31 Baking mix box 10
+    3300086: 31 Baking mix box 11
+    3300088: 31 Baking mix box 2
+    3300090: 31 Baking mix box 3
+    3300092: 31 Baking mix box 4
+    3300094: 31 Baking mix box 5
+    3300096: 31 Baking mix box 6
+    3300098: 31 Baking mix box 7
+    3300100: 31 Baking mix box 8
+    3300102: 31 Baking mix box 9
+    3300104: 32 Perrier water L
+    3300106: 32 Perrier water M
+    3300108: 32 Perrier water S
+    3300110: 33 Vittel water 1
+    3300112: 33 Vittel water 2
+    3300114: 33 Vittel water 3
+    3300116: 33 Vittel water 4
+    3300118: 34 Juice bottle 1
+    3300120: 34 Juice bottle 2
+    3300122: 34 Juice bottle 3
+    3300124: 34 Juice bottle 4
+    3300126: 34 Juice bottle 5
+    3300128: 34 Juice bottle 6
+    3300130: 34 Juice bottle 7
+    3300132: 34 Juice bottle 8
+    3300134: 34 Juice bottle 9
+    3300136: 35 Coca-Cola bottle
+    3300138: 35 Coca-Cola can
+    3300140: polySurface1
+    4300000: 27 Sauce 3
+    4300002: 27 Sauce 9
+    4300004: 27 Sauce 1
+    4300006: 27 Sauce 2
+    4300008: 27 Sauce 4
+    4300010: 27 Sauce 5
+    4300012: 27 Sauce 6
+    4300014: 27 Sauce 7
+    4300016: 27 Sauce 8
+    4300018: 27 Sauce 10
+    4300020: 28 Sauce 1
+    4300022: 28 Sauce 2
+    4300024: 28 Sauce 3
+    4300026: 28 Sauce 4
+    4300028: 28 Sauce 5
+    4300030: 28 Jam 1
+    4300032: 28 Jam 2
+    4300034: 28 Jam 3
+    4300036: 28 Jam 4
+    4300038: 28 Jam 5
+    4300040: 29 Baking mix can 7
+    4300042: 29 Baking mix can 8
+    4300044: 29 Baking mix can 9
+    4300046: 29 Baking mix can 4
+    4300048: 29 Baking mix can 5
+    4300050: 29 Baking mix can 6
+    4300052: 29 Baking mix can 1
+    4300054: 29 Baking mix can 2
+    4300056: 29 Baking mix can 3
+    4300058: 30 Cereal box 10
+    4300060: 30 Cereal box 8
+    4300062: 30 Cereal box 1
+    4300064: 30 Cereal box 3
+    4300066: 30 Cereal box 7
+    4300068: 30 Cereal box 2
+    4300070: 30 Cereal box 4
+    4300072: 30 Cereal box 5
+    4300074: 30 Cereal box 6
+    4300076: 30 Cereal box 9
+    4300078: 30 Cereal box 11
+    4300080: 30 Cereal box 12
+    4300082: 31 Baking mix box 9
+    4300084: 31 Baking mix box 10
+    4300086: 31 Baking mix box 11
+    4300088: 31 Baking mix box 1
+    4300090: 31 Baking mix box 3
+    4300092: 31 Baking mix box 5
+    4300094: 31 Baking mix box 7
+    4300096: 31 Baking mix box 4
+    4300098: 31 Baking mix box 6
+    4300100: 31 Baking mix box 8
+    4300102: 31 Baking mix box 2
+    4300104: 32 Perrier water L
+    4300106: 32 Perrier water M
+    4300108: 32 Perrier water S
+    4300110: 33 Vittel water 1
+    4300112: 33 Vittel water 2
+    4300114: 33 Vittel water 3
+    4300116: 33 Vittel water 4
+    4300118: 34 Juice bottle 1
+    4300120: 34 Juice bottle 2
+    4300122: 34 Juice bottle 3
+    4300124: 34 Juice bottle 4
+    4300126: 34 Juice bottle 5
+    4300128: 34 Juice bottle 6
+    4300130: 34 Juice bottle 7
+    4300132: 34 Juice bottle 8
+    4300134: 34 Juice bottle 9
+    4300136: 35 Coca-Cola bottle
+    4300138: 35 Coca-Cola can
+    4300140: polySurface1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

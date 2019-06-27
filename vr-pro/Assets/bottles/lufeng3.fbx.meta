@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: ef0bd6ebc20f7c146ab3c5767fad6ead
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 06 Book 1
+    100002: 06 Book 2
+    100004: 06 Book 3
+    100006: 06 Book 4
+    100008: 06 Book 5
+    100010: 06 Book 6
+    100012: 06 Book 7
+    100014: 06 Book opened 1
+    100016: 06 Book opened 2
+    100018: 06 Book opened 3
+    100020: 06 Book opened 4
+    100022: 06 Book opened 5
+    100024: 06 Book stand closed
+    100026: 15 Kookii cup 1
+    100028: 15 Kookii cup 2
+    100030: 15 Kookii sugar
+    100032: 15 Kookii tray
+    100034: 18 Chopping board 1L
+    100036: 18 Chopping board 1M
+    100038: 18 Chopping board 1S
+    100040: 18 Chopping board 2
+    100042: 18 Chopping board 3
+    100044: 18 Chopping board 4
+    100046: 18 Chopping board 5
+    100048: 20 KitchenAid blender
+    100050: 21 Dualit Original toaster 2x
+    100052: 21 Dualit Original toaster 4x
+    100054: 22 Rosemary 1 round pot
+    100056: 22 Rosemary 2 square pot
+    100058: 22 Rosemary 3 classic pot
+    100060: 22 Rosemary 4 bucket
+    100062: 23 Green onion 1 round pot
+    100064: 23 Green onion 2 square pot
+    100066: 23 Green onion 3 classic pot
+    100068: 23 Green onion 4 bucket
+    100070: 24 Parsley 1 round pot
+    100072: 24 Parsley 2 square pot
+    100074: 24 Parsley 3 classic pot
+    100076: 24 Parsley 4 bucket
+    100078: 25 Mint 1 round pot
+    100080: 25 Mint 2 square pot
+    100082: 25 Mint 3 classic pot
+    100084: 25 Mint 4 bucket
+    100086: //RootNode
+    100088: polySurface1
+    100090: Text003
+    400000: 06 Book 1
+    400002: 06 Book 2
+    400004: 06 Book 3
+    400006: 06 Book 4
+    400008: 06 Book 5
+    400010: 06 Book 6
+    400012: 06 Book 7
+    400014: 06 Book opened 1
+    400016: 06 Book opened 2
+    400018: 06 Book opened 3
+    400020: 06 Book opened 4
+    400022: 06 Book opened 5
+    400024: 06 Book stand closed
+    400026: 15 Kookii cup 1
+    400028: 15 Kookii cup 2
+    400030: 15 Kookii sugar
+    400032: 15 Kookii tray
+    400034: 18 Chopping board 1L
+    400036: 18 Chopping board 1M
+    400038: 18 Chopping board 1S
+    400040: 18 Chopping board 2
+    400042: 18 Chopping board 3
+    400044: 18 Chopping board 4
+    400046: 18 Chopping board 5
+    400048: 20 KitchenAid blender
+    400050: 21 Dualit Original toaster 2x
+    400052: 21 Dualit Original toaster 4x
+    400054: 22 Rosemary 1 round pot
+    400056: 22 Rosemary 2 square pot
+    400058: 22 Rosemary 3 classic pot
+    400060: 22 Rosemary 4 bucket
+    400062: 23 Green onion 1 round pot
+    400064: 23 Green onion 2 square pot
+    400066: 23 Green onion 3 classic pot
+    400068: 23 Green onion 4 bucket
+    400070: 24 Parsley 1 round pot
+    400072: 24 Parsley 2 square pot
+    400074: 24 Parsley 3 classic pot
+    400076: 24 Parsley 4 bucket
+    400078: 25 Mint 1 round pot
+    400080: 25 Mint 2 square pot
+    400082: 25 Mint 3 classic pot
+    400084: 25 Mint 4 bucket
+    400086: //RootNode
+    400088: polySurface1
+    400090: Text003
+    2100000: cover 2
+    2100002: pages 3
+    2100004: cover 6
+    2100006: cover 5
+    2100008: pages 2
+    2100010: cover 4
+    2100012: cover 3
+    2100014: cover 1
+    2100016: pages 1
+    2100018: cover 7
+    2100020: wood
+    2100022: cover
+    2100024: pages
+    2100026: left page
+    2100028: right page
+    2100030: headband
+    2100032: ceramic
+    2100034: steel
+    2100036: wood 3
+    2100038: leather
+    2100040: wood 2
+    2100042: wood 4
+    2100044: wood 1
+    2100046: base
+    2100048: rubber
+    2100050: buttons
+    2100052: phong2
+    2100054: plastic
+    2100056: glass
+    2100058: cap
+    2100060: matte glass
+    2100062: steel glossy
+    2100064: handles
+    2100066: inside
+    2100068: steel matte
+    2100070: body
+    2100072: ground
+    2100074: pot
+    2100076: stem
+    2100078: leaf 1
+    2100080: leaf 2
+    2100082: leaf 3
+    2100084: leaf 4
+    2100086: bucket
+    2100088: handle
+    2100090: phong23
+    2100092: lambert1
+    2300000: 06 Book 1
+    2300002: 06 Book 2
+    2300004: 06 Book 3
+    2300006: 06 Book 4
+    2300008: 06 Book 5
+    2300010: 06 Book 6
+    2300012: 06 Book 7
+    2300014: 06 Book opened 1
+    2300016: 06 Book opened 2
+    2300018: 06 Book opened 3
+    2300020: 06 Book opened 4
+    2300022: 06 Book opened 5
+    2300024: 06 Book stand closed
+    2300026: 15 Kookii cup 1
+    2300028: 15 Kookii cup 2
+    2300030: 15 Kookii sugar
+    2300032: 15 Kookii tray
+    2300034: 18 Chopping board 1L
+    2300036: 18 Chopping board 1M
+    2300038: 18 Chopping board 1S
+    2300040: 18 Chopping board 2
+    2300042: 18 Chopping board 3
+    2300044: 18 Chopping board 4
+    2300046: 18 Chopping board 5
+    2300048: 20 KitchenAid blender
+    2300050: 21 Dualit Original toaster 2x
+    2300052: 21 Dualit Original toaster 4x
+    2300054: 22 Rosemary 1 round pot
+    2300056: 22 Rosemary 2 square pot
+    2300058: 22 Rosemary 3 classic pot
+    2300060: 22 Rosemary 4 bucket
+    2300062: 23 Green onion 1 round pot
+    2300064: 23 Green onion 2 square pot
+    2300066: 23 Green onion 3 classic pot
+    2300068: 23 Green onion 4 bucket
+    2300070: 24 Parsley 1 round pot
+    2300072: 24 Parsley 2 square pot
+    2300074: 24 Parsley 3 classic pot
+    2300076: 24 Parsley 4 bucket
+    2300078: 25 Mint 1 round pot
+    2300080: 25 Mint 2 square pot
+    2300082: 25 Mint 3 classic pot
+    2300084: 25 Mint 4 bucket
+    2300086: polySurface1
+    2300088: Text003
+    3300000: 06 Book 1
+    3300002: 06 Book 2
+    3300004: 06 Book 3
+    3300006: 06 Book 4
+    3300008: 06 Book 5
+    3300010: 06 Book 6
+    3300012: 06 Book 7
+    3300014: 06 Book opened 1
+    3300016: 06 Book opened 2
+    3300018: 06 Book opened 3
+    3300020: 06 Book opened 4
+    3300022: 06 Book opened 5
+    3300024: 06 Book stand closed
+    3300026: 15 Kookii cup 1
+    3300028: 15 Kookii cup 2
+    3300030: 15 Kookii sugar
+    3300032: 15 Kookii tray
+    3300034: 18 Chopping board 1L
+    3300036: 18 Chopping board 1M
+    3300038: 18 Chopping board 1S
+    3300040: 18 Chopping board 2
+    3300042: 18 Chopping board 3
+    3300044: 18 Chopping board 4
+    3300046: 18 Chopping board 5
+    3300048: 20 KitchenAid blender
+    3300050: 21 Dualit Original toaster 2x
+    3300052: 21 Dualit Original toaster 4x
+    3300054: 22 Rosemary 1 round pot
+    3300056: 22 Rosemary 2 square pot
+    3300058: 22 Rosemary 3 classic pot
+    3300060: 22 Rosemary 4 bucket
+    3300062: 23 Green onion 1 round pot
+    3300064: 23 Green onion 2 square pot
+    3300066: 23 Green onion 3 classic pot
+    3300068: 23 Green onion 4 bucket
+    3300070: 24 Parsley 1 round pot
+    3300072: 24 Parsley 2 square pot
+    3300074: 24 Parsley 3 classic pot
+    3300076: 24 Parsley 4 bucket
+    3300078: 25 Mint 1 round pot
+    3300080: 25 Mint 2 square pot
+    3300082: 25 Mint 3 classic pot
+    3300084: 25 Mint 4 bucket
+    3300086: polySurface1
+    3300088: Text003
+    4300000: 06 Book 2
+    4300002: 06 Book 6
+    4300004: 06 Book 5
+    4300006: 06 Book 4
+    4300008: 06 Book 3
+    4300010: 06 Book 1
+    4300012: 06 Book 7
+    4300014: 06 Book opened 1
+    4300016: 06 Book stand closed
+    4300018: 06 Book opened 2
+    4300020: 06 Book opened 3
+    4300022: 06 Book opened 4
+    4300024: 06 Book opened 5
+    4300026: 15 Kookii cup 1
+    4300028: 15 Kookii sugar
+    4300030: 15 Kookii cup 2
+    4300032: 15 Kookii tray
+    4300034: 18 Chopping board 3
+    4300036: 18 Chopping board 2
+    4300038: 18 Chopping board 5
+    4300040: 18 Chopping board 4
+    4300042: 18 Chopping board 1S
+    4300044: 18 Chopping board 1M
+    4300046: 18 Chopping board 1L
+    4300048: 20 KitchenAid blender
+    4300050: 21 Dualit Original toaster 2x
+    4300052: 21 Dualit Original toaster 4x
+    4300054: 22 Rosemary 1 round pot
+    4300056: 22 Rosemary 3 classic pot
+    4300058: 22 Rosemary 2 square pot
+    4300060: 22 Rosemary 4 bucket
+    4300062: 23 Green onion 3 classic pot
+    4300064: 23 Green onion 4 bucket
+    4300066: 23 Green onion 2 square pot
+    4300068: 23 Green onion 1 round pot
+    4300070: 24 Parsley 3 classic pot
+    4300072: 24 Parsley 4 bucket
+    4300074: 24 Parsley 2 square pot
+    4300076: 24 Parsley 1 round pot
+    4300078: 25 Mint 3 classic pot
+    4300080: 25 Mint 4 bucket
+    4300082: 25 Mint 2 square pot
+    4300084: 25 Mint 1 round pot
+    4300086: Text003
+    4300088: polySurface1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
