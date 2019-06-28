@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: dc042de2a3de0a24ab58ceb2c3da8ead
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 01 Iittala pan L
+    100002: 01 Iittala pan S
+    100004: 01 Iittala pot L
+    100006: 01 Iittala pot M
+    100008: 01 Iittala pot S
+    100010: 01 Iittala saucepan
+    100012: 01 Iittala sauteuse
+    100014: 02 Eva Solo casserole 2,5 L
+    100016: 02 Eva Solo casserole 3,8 L
+    100018: 02 Eva Solo casserole 4,8 L
+    100020: 02 Eva Solo casserole 7,0 L
+    100022: 02 Eva Solo pan 24 cm
+    100024: 02 Eva Solo pan 28 cm
+    100026: 02 Eva Solo saucepan 16 cm
+    100028: 02 Eva Solo saucepan 24 cm
+    100030: 03 Alessi frying pan
+    100032: 03 Alessi pot L
+    100034: 03 Alessi pot M
+    100036: 03 Alessi pot S
+    100038: 03 Alessi saucepan
+    100040: 03 Alessi sauteuse
+    100042: 04 Kaico coffee pot
+    100044: 04 Kaico kettle
+    100046: 04 Kaico pot L
+    100048: 04 Kaico pot S
+    100050: 04 Kaico saucepan
+    100052: 05 Le Creuset Dutch oven oval
+    100054: 05 Le Creuset Dutch oven round
+    100056: 05 Le Creuset saucepan
+    100058: 07 Stelton jug L
+    100060: 07 Stelton jug S
+    100062: 08 Stelton AJ coffee pot
+    100064: 08 Stelton AJ coffee press
+    100066: 08 Stelton AJ tea pot
+    100068: 09 Noda Horo teapot
+    100070: 10 Bialetti Moka Express
+    100072: 11 Fermliving bowl
+    100074: 11 Fermliving cup L
+    100076: 11 Fermliving cup S
+    100078: 11 Fermliving egg cup
+    100080: 11 Fermliving jar L
+    100082: 11 Fermliving jar M
+    100084: 11 Fermliving jar S
+    100086: 11 Fermliving plate
+    100088: 11 Fermliving rings
+    100090: 11 Fermliving teapot
+    100092: 12 Normann Copenhagen board L
+    100094: 12 Normann Copenhagen board S
+    100096: 12 Normann Copenhagen bowl L
+    100098: 12 Normann Copenhagen bowl S
+    100100: 12 Normann Copenhagen cup
+    100102: 12 Normann Copenhagen decanter
+    100104: 12 Normann Copenhagen eggcup 1
+    100106: 12 Normann Copenhagen eggcup 2
+    100108: 12 Normann Copenhagen milk jug
+    100110: 12 Normann Copenhagen plate L
+    100112: 12 Normann Copenhagen plate S
+    100114: 12 Normann Copenhagen sugar bowl
+    100116: 13 Ceramic bowl 1
+    100118: 13 Ceramic bowl 2
+    100120: 13 Ceramic bowl 3
+    100122: 13 Ceramic bowl 4
+    100124: 13 Ceramic bowl 5
+    100126: 13 Ceramic bowl 6
+    100128: 13 Ceramic cup 1
+    100130: 13 Ceramic cup 2
+    100132: 13 Ceramic cup 3
+    100134: 13 Ceramic cup 4
+    100136: 13 Ceramic cup 5
+    100138: 13 Ceramic cup 6
+    100140: 13 Ceramic cup small 1
+    100142: 13 Ceramic cup small 2
+    100144: 13 Ceramic cup small 3
+    100146: 13 Ceramic cup small 4
+    100148: 13 Ceramic cup small 5
+    100150: 13 Ceramic cup small 6
+    100152: 14 Glass 1
+    100154: 14 Glass 2
+    100156: 14 Glass 3
+    100158: 14 Glass 4
+    100160: 14 Glass 5
+    100162: 15 Kookii creamer
+    100164: 15 Kookii cup 3
+    100166: 15 Kookii cup 4
+    100168: 15 Kookii teapot
+    100170: 16 Iittala cast iron pot
+    100172: 17 Pottery bowl 1
+    100174: 17 Pottery bowl 2
+    100176: 17 Pottery bowl 3
+    100178: 17 Pottery bowl 4
+    100180: 17 Pottery bowl 5
+    100182: 17 Pottery bowl 6
+    100184: 17 Pottery bowl 7
+    100186: 17 Pottery jar 1
+    100188: 17 Pottery jar 2
+    100190: 17 Pottery jar small 1
+    100192: 17 Pottery jar small 2
+    100194: 17 Pottery jar small 3
+    100196: 19 Wesco Retro scale
+    100198: 26 Heinz Ketchup
+    100200: 26 Kikkoman
+    100202: 26 Lea and Perrins
+    100204: 26 Marmite
+    100206: 26 Tabasco Jalapeno
+    100208: 26 Tabasco Pepper
+    100210: //RootNode
+    100212: polySurface1
+    400000: 01 Iittala pan L
+    400002: 01 Iittala pan S
+    400004: 01 Iittala pot L
+    400006: 01 Iittala pot M
+    400008: 01 Iittala pot S
+    400010: 01 Iittala saucepan
+    400012: 01 Iittala sauteuse
+    400014: 02 Eva Solo casserole 2,5 L
+    400016: 02 Eva Solo casserole 3,8 L
+    400018: 02 Eva Solo casserole 4,8 L
+    400020: 02 Eva Solo casserole 7,0 L
+    400022: 02 Eva Solo pan 24 cm
+    400024: 02 Eva Solo pan 28 cm
+    400026: 02 Eva Solo saucepan 16 cm
+    400028: 02 Eva Solo saucepan 24 cm
+    400030: 03 Alessi frying pan
+    400032: 03 Alessi pot L
+    400034: 03 Alessi pot M
+    400036: 03 Alessi pot S
+    400038: 03 Alessi saucepan
+    400040: 03 Alessi sauteuse
+    400042: 04 Kaico coffee pot
+    400044: 04 Kaico kettle
+    400046: 04 Kaico pot L
+    400048: 04 Kaico pot S
+    400050: 04 Kaico saucepan
+    400052: 05 Le Creuset Dutch oven oval
+    400054: 05 Le Creuset Dutch oven round
+    400056: 05 Le Creuset saucepan
+    400058: 07 Stelton jug L
+    400060: 07 Stelton jug S
+    400062: 08 Stelton AJ coffee pot
+    400064: 08 Stelton AJ coffee press
+    400066: 08 Stelton AJ tea pot
+    400068: 09 Noda Horo teapot
+    400070: 10 Bialetti Moka Express
+    400072: 11 Fermliving bowl
+    400074: 11 Fermliving cup L
+    400076: 11 Fermliving cup S
+    400078: 11 Fermliving egg cup
+    400080: 11 Fermliving jar L
+    400082: 11 Fermliving jar M
+    400084: 11 Fermliving jar S
+    400086: 11 Fermliving plate
+    400088: 11 Fermliving rings
+    400090: 11 Fermliving teapot
+    400092: 12 Normann Copenhagen board L
+    400094: 12 Normann Copenhagen board S
+    400096: 12 Normann Copenhagen bowl L
+    400098: 12 Normann Copenhagen bowl S
+    400100: 12 Normann Copenhagen cup
+    400102: 12 Normann Copenhagen decanter
+    400104: 12 Normann Copenhagen eggcup 1
+    400106: 12 Normann Copenhagen eggcup 2
+    400108: 12 Normann Copenhagen milk jug
+    400110: 12 Normann Copenhagen plate L
+    400112: 12 Normann Copenhagen plate S
+    400114: 12 Normann Copenhagen sugar bowl
+    400116: 13 Ceramic bowl 1
+    400118: 13 Ceramic bowl 2
+    400120: 13 Ceramic bowl 3
+    400122: 13 Ceramic bowl 4
+    400124: 13 Ceramic bowl 5
+    400126: 13 Ceramic bowl 6
+    400128: 13 Ceramic cup 1
+    400130: 13 Ceramic cup 2
+    400132: 13 Ceramic cup 3
+    400134: 13 Ceramic cup 4
+    400136: 13 Ceramic cup 5
+    400138: 13 Ceramic cup 6
+    400140: 13 Ceramic cup small 1
+    400142: 13 Ceramic cup small 2
+    400144: 13 Ceramic cup small 3
+    400146: 13 Ceramic cup small 4
+    400148: 13 Ceramic cup small 5
+    400150: 13 Ceramic cup small 6
+    400152: 14 Glass 1
+    400154: 14 Glass 2
+    400156: 14 Glass 3
+    400158: 14 Glass 4
+    400160: 14 Glass 5
+    400162: 15 Kookii creamer
+    400164: 15 Kookii cup 3
+    400166: 15 Kookii cup 4
+    400168: 15 Kookii teapot
+    400170: 16 Iittala cast iron pot
+    400172: 17 Pottery bowl 1
+    400174: 17 Pottery bowl 2
+    400176: 17 Pottery bowl 3
+    400178: 17 Pottery bowl 4
+    400180: 17 Pottery bowl 5
+    400182: 17 Pottery bowl 6
+    400184: 17 Pottery bowl 7
+    400186: 17 Pottery jar 1
+    400188: 17 Pottery jar 2
+    400190: 17 Pottery jar small 1
+    400192: 17 Pottery jar small 2
+    400194: 17 Pottery jar small 3
+    400196: 19 Wesco Retro scale
+    400198: 26 Heinz Ketchup
+    400200: 26 Kikkoman
+    400202: 26 Lea and Perrins
+    400204: 26 Marmite
+    400206: 26 Tabasco Jalapeno
+    400208: 26 Tabasco Pepper
+    400210: //RootNode
+    400212: polySurface1
+    2100000: steel
+    2100002: chrome
+    2100004: ceramic
+    2100006: coating
+    2100008: handle
+    2100010: enamel
+    2100012: inside
+    2100014: wood
+    2100016: bottom
+    2100018: top oval
+    2100020: top round
+    2100022: plastic
+    2100024: base
+    2100026: phong1
+    2100028: copper
+    2100030: pattern
+    2100032: grey
+    2100034: yellow
+    2100036: beige
+    2100038: black
+    2100040: mint
+    2100042: brown
+    2100044: aqua
+    2100046: pink
+    2100048: blue
+    2100050: cork
+    2100052: red
+    2100054: white
+    2100056: green
+    2100058: violet
+    2100060: glass 4
+    2100062: glass 3
+    2100064: glass 2
+    2100066: glass 5
+    2100068: glass 1
+    2100070: iron
+    2100072: dark brown
+    2100074: olive
+    2100076: case1
+    2100078: logo
+    2100080: glass
+    2100082: dials
+    2100084: screws
+    2100086: hands
+    2100088: phong3
+    2100090: cap
+    2100092: sauce
+    2100094: label top
+    2100096: phong4
+    2100098: phong5
+    2100100: label
+    2100102: phong6
+    2100104: phong7
+    2100106: ketchup
+    2100108: lambert1
+    2300000: 01 Iittala pan L
+    2300002: 01 Iittala pan S
+    2300004: 01 Iittala pot L
+    2300006: 01 Iittala pot M
+    2300008: 01 Iittala pot S
+    2300010: 01 Iittala saucepan
+    2300012: 01 Iittala sauteuse
+    2300014: 02 Eva Solo casserole 2,5 L
+    2300016: 02 Eva Solo casserole 3,8 L
+    2300018: 02 Eva Solo casserole 4,8 L
+    2300020: 02 Eva Solo casserole 7,0 L
+    2300022: 02 Eva Solo pan 24 cm
+    2300024: 02 Eva Solo pan 28 cm
+    2300026: 02 Eva Solo saucepan 16 cm
+    2300028: 02 Eva Solo saucepan 24 cm
+    2300030: 03 Alessi frying pan
+    2300032: 03 Alessi pot L
+    2300034: 03 Alessi pot M
+    2300036: 03 Alessi pot S
+    2300038: 03 Alessi saucepan
+    2300040: 03 Alessi sauteuse
+    2300042: 04 Kaico coffee pot
+    2300044: 04 Kaico kettle
+    2300046: 04 Kaico pot L
+    2300048: 04 Kaico pot S
+    2300050: 04 Kaico saucepan
+    2300052: 05 Le Creuset Dutch oven oval
+    2300054: 05 Le Creuset Dutch oven round
+    2300056: 05 Le Creuset saucepan
+    2300058: 07 Stelton jug L
+    2300060: 07 Stelton jug S
+    2300062: 08 Stelton AJ coffee pot
+    2300064: 08 Stelton AJ coffee press
+    2300066: 08 Stelton AJ tea pot
+    2300068: 09 Noda Horo teapot
+    2300070: 10 Bialetti Moka Express
+    2300072: 11 Fermliving bowl
+    2300074: 11 Fermliving cup L
+    2300076: 11 Fermliving cup S
+    2300078: 11 Fermliving egg cup
+    2300080: 11 Fermliving jar L
+    2300082: 11 Fermliving jar M
+    2300084: 11 Fermliving jar S
+    2300086: 11 Fermliving plate
+    2300088: 11 Fermliving rings
+    2300090: 11 Fermliving teapot
+    2300092: 12 Normann Copenhagen board L
+    2300094: 12 Normann Copenhagen board S
+    2300096: 12 Normann Copenhagen bowl L
+    2300098: 12 Normann Copenhagen bowl S
+    2300100: 12 Normann Copenhagen cup
+    2300102: 12 Normann Copenhagen decanter
+    2300104: 12 Normann Copenhagen eggcup 1
+    2300106: 12 Normann Copenhagen eggcup 2
+    2300108: 12 Normann Copenhagen milk jug
+    2300110: 12 Normann Copenhagen plate L
+    2300112: 12 Normann Copenhagen plate S
+    2300114: 12 Normann Copenhagen sugar bowl
+    2300116: 13 Ceramic bowl 1
+    2300118: 13 Ceramic bowl 2
+    2300120: 13 Ceramic bowl 3
+    2300122: 13 Ceramic bowl 4
+    2300124: 13 Ceramic bowl 5
+    2300126: 13 Ceramic bowl 6
+    2300128: 13 Ceramic cup 1
+    2300130: 13 Ceramic cup 2
+    2300132: 13 Ceramic cup 3
+    2300134: 13 Ceramic cup 4
+    2300136: 13 Ceramic cup 5
+    2300138: 13 Ceramic cup 6
+    2300140: 13 Ceramic cup small 1
+    2300142: 13 Ceramic cup small 2
+    2300144: 13 Ceramic cup small 3
+    2300146: 13 Ceramic cup small 4
+    2300148: 13 Ceramic cup small 5
+    2300150: 13 Ceramic cup small 6
+    2300152: 14 Glass 1
+    2300154: 14 Glass 2
+    2300156: 14 Glass 3
+    2300158: 14 Glass 4
+    2300160: 14 Glass 5
+    2300162: 15 Kookii creamer
+    2300164: 15 Kookii cup 3
+    2300166: 15 Kookii cup 4
+    2300168: 15 Kookii teapot
+    2300170: 16 Iittala cast iron pot
+    2300172: 17 Pottery bowl 1
+    2300174: 17 Pottery bowl 2
+    2300176: 17 Pottery bowl 3
+    2300178: 17 Pottery bowl 4
+    2300180: 17 Pottery bowl 5
+    2300182: 17 Pottery bowl 6
+    2300184: 17 Pottery bowl 7
+    2300186: 17 Pottery jar 1
+    2300188: 17 Pottery jar 2
+    2300190: 17 Pottery jar small 1
+    2300192: 17 Pottery jar small 2
+    2300194: 17 Pottery jar small 3
+    2300196: 19 Wesco Retro scale
+    2300198: 26 Heinz Ketchup
+    2300200: 26 Kikkoman
+    2300202: 26 Lea and Perrins
+    2300204: 26 Marmite
+    2300206: 26 Tabasco Jalapeno
+    2300208: 26 Tabasco Pepper
+    2300210: polySurface1
+    3300000: 01 Iittala pan L
+    3300002: 01 Iittala pan S
+    3300004: 01 Iittala pot L
+    3300006: 01 Iittala pot M
+    3300008: 01 Iittala pot S
+    3300010: 01 Iittala saucepan
+    3300012: 01 Iittala sauteuse
+    3300014: 02 Eva Solo casserole 2,5 L
+    3300016: 02 Eva Solo casserole 3,8 L
+    3300018: 02 Eva Solo casserole 4,8 L
+    3300020: 02 Eva Solo casserole 7,0 L
+    3300022: 02 Eva Solo pan 24 cm
+    3300024: 02 Eva Solo pan 28 cm
+    3300026: 02 Eva Solo saucepan 16 cm
+    3300028: 02 Eva Solo saucepan 24 cm
+    3300030: 03 Alessi frying pan
+    3300032: 03 Alessi pot L
+    3300034: 03 Alessi pot M
+    3300036: 03 Alessi pot S
+    3300038: 03 Alessi saucepan
+    3300040: 03 Alessi sauteuse
+    3300042: 04 Kaico coffee pot
+    3300044: 04 Kaico kettle
+    3300046: 04 Kaico pot L
+    3300048: 04 Kaico pot S
+    3300050: 04 Kaico saucepan
+    3300052: 05 Le Creuset Dutch oven oval
+    3300054: 05 Le Creuset Dutch oven round
+    3300056: 05 Le Creuset saucepan
+    3300058: 07 Stelton jug L
+    3300060: 07 Stelton jug S
+    3300062: 08 Stelton AJ coffee pot
+    3300064: 08 Stelton AJ coffee press
+    3300066: 08 Stelton AJ tea pot
+    3300068: 09 Noda Horo teapot
+    3300070: 10 Bialetti Moka Express
+    3300072: 11 Fermliving bowl
+    3300074: 11 Fermliving cup L
+    3300076: 11 Fermliving cup S
+    3300078: 11 Fermliving egg cup
+    3300080: 11 Fermliving jar L
+    3300082: 11 Fermliving jar M
+    3300084: 11 Fermliving jar S
+    3300086: 11 Fermliving plate
+    3300088: 11 Fermliving rings
+    3300090: 11 Fermliving teapot
+    3300092: 12 Normann Copenhagen board L
+    3300094: 12 Normann Copenhagen board S
+    3300096: 12 Normann Copenhagen bowl L
+    3300098: 12 Normann Copenhagen bowl S
+    3300100: 12 Normann Copenhagen cup
+    3300102: 12 Normann Copenhagen decanter
+    3300104: 12 Normann Copenhagen eggcup 1
+    3300106: 12 Normann Copenhagen eggcup 2
+    3300108: 12 Normann Copenhagen milk jug
+    3300110: 12 Normann Copenhagen plate L
+    3300112: 12 Normann Copenhagen plate S
+    3300114: 12 Normann Copenhagen sugar bowl
+    3300116: 13 Ceramic bowl 1
+    3300118: 13 Ceramic bowl 2
+    3300120: 13 Ceramic bowl 3
+    3300122: 13 Ceramic bowl 4
+    3300124: 13 Ceramic bowl 5
+    3300126: 13 Ceramic bowl 6
+    3300128: 13 Ceramic cup 1
+    3300130: 13 Ceramic cup 2
+    3300132: 13 Ceramic cup 3
+    3300134: 13 Ceramic cup 4
+    3300136: 13 Ceramic cup 5
+    3300138: 13 Ceramic cup 6
+    3300140: 13 Ceramic cup small 1
+    3300142: 13 Ceramic cup small 2
+    3300144: 13 Ceramic cup small 3
+    3300146: 13 Ceramic cup small 4
+    3300148: 13 Ceramic cup small 5
+    3300150: 13 Ceramic cup small 6
+    3300152: 14 Glass 1
+    3300154: 14 Glass 2
+    3300156: 14 Glass 3
+    3300158: 14 Glass 4
+    3300160: 14 Glass 5
+    3300162: 15 Kookii creamer
+    3300164: 15 Kookii cup 3
+    3300166: 15 Kookii cup 4
+    3300168: 15 Kookii teapot
+    3300170: 16 Iittala cast iron pot
+    3300172: 17 Pottery bowl 1
+    3300174: 17 Pottery bowl 2
+    3300176: 17 Pottery bowl 3
+    3300178: 17 Pottery bowl 4
+    3300180: 17 Pottery bowl 5
+    3300182: 17 Pottery bowl 6
+    3300184: 17 Pottery bowl 7
+    3300186: 17 Pottery jar 1
+    3300188: 17 Pottery jar 2
+    3300190: 17 Pottery jar small 1
+    3300192: 17 Pottery jar small 2
+    3300194: 17 Pottery jar small 3
+    3300196: 19 Wesco Retro scale
+    3300198: 26 Heinz Ketchup
+    3300200: 26 Kikkoman
+    3300202: 26 Lea and Perrins
+    3300204: 26 Marmite
+    3300206: 26 Tabasco Jalapeno
+    3300208: 26 Tabasco Pepper
+    3300210: polySurface1
+    4300000: 01 Iittala sauteuse
+    4300002: 01 Iittala pan S
+    4300004: 01 Iittala saucepan
+    4300006: 01 Iittala pot S
+    4300008: 01 Iittala pot L
+    4300010: 01 Iittala pot M
+    4300012: 01 Iittala pan L
+    4300014: 02 Eva Solo casserole 4,8 L
+    4300016: 02 Eva Solo saucepan 16 cm
+    4300018: 02 Eva Solo pan 28 cm
+    4300020: 02 Eva Solo saucepan 24 cm
+    4300022: 02 Eva Solo pan 24 cm
+    4300024: 02 Eva Solo casserole 3,8 L
+    4300026: 02 Eva Solo casserole 7,0 L
+    4300028: 02 Eva Solo casserole 2,5 L
+    4300030: 03 Alessi pot L
+    4300032: 03 Alessi pot M
+    4300034: 03 Alessi pot S
+    4300036: 03 Alessi saucepan
+    4300038: 03 Alessi sauteuse
+    4300040: 03 Alessi frying pan
+    4300042: 04 Kaico coffee pot
+    4300044: 04 Kaico kettle
+    4300046: 04 Kaico saucepan
+    4300048: 04 Kaico pot S
+    4300050: 04 Kaico pot L
+    4300052: 05 Le Creuset Dutch oven oval
+    4300054: 05 Le Creuset Dutch oven round
+    4300056: 05 Le Creuset saucepan
+    4300058: 07 Stelton jug L
+    4300060: 07 Stelton jug S
+    4300062: 08 Stelton AJ coffee press
+    4300064: 08 Stelton AJ tea pot
+    4300066: 08 Stelton AJ coffee pot
+    4300068: 09 Noda Horo teapot
+    4300070: 10 Bialetti Moka Express
+    4300072: 11 Fermliving egg cup
+    4300074: 11 Fermliving cup S
+    4300076: 11 Fermliving cup L
+    4300078: 11 Fermliving bowl
+    4300080: 11 Fermliving plate
+    4300082: 11 Fermliving jar S
+    4300084: 11 Fermliving rings
+    4300086: 11 Fermliving teapot
+    4300088: 11 Fermliving jar L
+    4300090: 11 Fermliving jar M
+    4300092: 12 Normann Copenhagen bowl S
+    4300094: 12 Normann Copenhagen bowl L
+    4300096: 12 Normann Copenhagen board L
+    4300098: 12 Normann Copenhagen board S
+    4300100: 12 Normann Copenhagen cup
+    4300102: 12 Normann Copenhagen eggcup 2
+    4300104: 12 Normann Copenhagen plate L
+    4300106: 12 Normann Copenhagen plate S
+    4300108: 12 Normann Copenhagen sugar bowl
+    4300110: 12 Normann Copenhagen decanter
+    4300112: 12 Normann Copenhagen milk jug
+    4300114: 12 Normann Copenhagen eggcup 1
+    4300116: 13 Ceramic bowl 1
+    4300118: 13 Ceramic bowl 2
+    4300120: 13 Ceramic bowl 3
+    4300122: 13 Ceramic bowl 4
+    4300124: 13 Ceramic bowl 5
+    4300126: 13 Ceramic bowl 6
+    4300128: 13 Ceramic cup 1
+    4300130: 13 Ceramic cup 2
+    4300132: 13 Ceramic cup 3
+    4300134: 13 Ceramic cup 4
+    4300136: 13 Ceramic cup 5
+    4300138: 13 Ceramic cup 6
+    4300140: 13 Ceramic cup small 1
+    4300142: 13 Ceramic cup small 2
+    4300144: 13 Ceramic cup small 3
+    4300146: 13 Ceramic cup small 4
+    4300148: 13 Ceramic cup small 5
+    4300150: 13 Ceramic cup small 6
+    4300152: 14 Glass 4
+    4300154: 14 Glass 3
+    4300156: 14 Glass 2
+    4300158: 14 Glass 5
+    4300160: 14 Glass 1
+    4300162: 15 Kookii teapot
+    4300164: 15 Kookii creamer
+    4300166: 15 Kookii cup 3
+    4300168: 15 Kookii cup 4
+    4300170: 16 Iittala cast iron pot
+    4300172: 17 Pottery jar small 2
+    4300174: 17 Pottery jar 2
+    4300176: 17 Pottery jar 1
+    4300178: 17 Pottery bowl 5
+    4300180: 17 Pottery bowl 2
+    4300182: 17 Pottery bowl 1
+    4300184: 17 Pottery bowl 4
+    4300186: 17 Pottery bowl 6
+    4300188: 17 Pottery bowl 3
+    4300190: 17 Pottery bowl 7
+    4300192: 17 Pottery jar small 1
+    4300194: 17 Pottery jar small 3
+    4300196: 19 Wesco Retro scale
+    4300198: 26 Marmite
+    4300200: 26 Tabasco Pepper
+    4300202: 26 Tabasco Jalapeno
+    4300204: 26 Lea and Perrins
+    4300206: 26 Kikkoman
+    4300208: 26 Heinz Ketchup
+    4300210: polySurface1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

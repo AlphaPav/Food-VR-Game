@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{66C89E85-18D1-B66D-0090-F74747AE63AA}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RightHandCtrl.cs">
+    <Files>
+      <File FileName="Assets/Scripts/RightHandCtrl.cs" Line="138" Column="57" />
+      <File FileName="Assets/Scripts/UICtrl.cs" />
+      <File FileName="Assets/Scripts/updateState.cs" />
+      <File FileName="Assets/Scripts/FollowCtrl.cs" />
+      <File FileName="Assets/Scripts/HeroRotate.cs" />
+      <File FileName="Assets/Scripts/HeroMove.cs" />
+      <File FileName="Assets/Scripts/HandRotate.cs" />
+      <File FileName="Assets/Scripts/ObjShowRim.cs" />
+      <File FileName="Assets/Scripts/LeftHandCtrl.cs" />
+      <File FileName="Assets/Scripts/StateControl.cs" />
+      <File FileName="Assets/SteamVR/Scripts/SteamVR_RenderModel.cs" />
+      <File FileName="Assets/SteamVR/Scripts/SteamVR.cs" Line="253" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="vr-pro" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="RightHandCtrl.cs" selected="True" />
+              </Node>
+              <Node name="SteamVR" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a2245cb9-9c3a-4e72-8d30-5c08c6ef188a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
