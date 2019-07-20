@@ -13,12 +13,20 @@ public class UICtrl : MonoBehaviour
     public Text info_obj_text;
     public Text touch_obj_text;
     public Text next_state;
- 
+    public Text total_cook_time_text;
+    public Text fire_time_text;
+
+    private float fire_time;
+    private bool fire_already_closed;
+    private bool cook_already_finished;
 
     // Start is called before the first frame update
     void Start()
     {
         BindUIs();
+        fire_time = -1;
+        fire_already_closed = false;
+        cook_already_finished = false;
     }
 
     void BindUIs()
@@ -54,11 +62,43 @@ public class UICtrl : MonoBehaviour
         }
         else
         {
-            info_obj_text.text = "Object Info: none" + LeftHandCtrl.infoObject.name;
+            info_obj_text.text = "Object Info: " + LeftHandCtrl.infoObject.name;
         }
 
         current_state.text = "Current Step: " + (StateControl.getStateName());
         next_state.text = "Next Step: " + StateControl.getNextStateName();
+
+        if(StateControl.getStateId() + 1 < StateControl.FINISHED)
+        {
+            total_cook_time_text.text = "游戏时长: " + Mathf.Round(Time.time) + " 秒";
+        }
+        else if (cook_already_finished == false)
+        {
+            total_cook_time_text.text = "菜肴制作完成，总烹饪耗时" + Mathf.Round(Time.time) + " 秒";
+            cook_already_finished = true;
+        }
+
+
+        if(StateControl.getStateId() < StateControl.OPEN_FIRE)
+        {
+            fire_time_text.text = "尚未开始烹煮";
+        }
+        else if(StateControl.getStateId() >= StateControl.OPEN_FIRE && StateControl.getStateId() < StateControl.CLOSE_FIRE)
+        {
+            if(fire_time < 0)
+            {
+                fire_time = Time.time;
+            }
+            else
+            {
+                fire_time_text.text = "烹煮时长: " + Mathf.Round(Time.time - fire_time) + " 秒";
+            }
+        }
+        else if(!fire_already_closed)
+        {
+            fire_time_text.text = "烹煮完成，总烹煮时长为"+ Mathf.Round(Time.time - fire_time) + "秒";
+            fire_already_closed = true;
+        }
 
     }
 
