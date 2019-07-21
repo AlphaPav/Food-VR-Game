@@ -61,32 +61,138 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Kitchen_Cooking_FX\Scripts\AnimatedTextureUVs.cs" />
+    <Compile Include="Assets\Obi\Rendering\ObiFluidRenderer.cs" />
+    <Compile Include="Assets\Obi\Rendering\ObiParticleRenderer.cs" />
+    <Compile Include="Assets\Obi\Rendering\ShadowmapExposer.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\Blinker.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\BucketController.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\ColliderHighlighter.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\CollisionEventHandler.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\FirstPersonLauncher.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\FluidJetController.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\ObiActorTeleport.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\ObjectDragger.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\ObjectLimit.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\SlowmoToggler.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\ThirdPersonUserControl.cs" />
+    <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\WaveGenerator.cs" />
+    <Compile Include="Assets\Obi\Scripts\Actors\ObiActor.cs" />
+    <Compile Include="Assets\Obi\Scripts\Actors\ObiBone.cs" />
+    <Compile Include="Assets\Obi\Scripts\Actors\ObiEmitter.cs" />
+    <Compile Include="Assets\Obi\Scripts\Actors\ObiStitcher.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers2D\ObiBoxShapeTracker2D.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers2D\ObiCapsuleShapeTracker2D.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers2D\ObiCircleShapeTracker2D.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers2D\ObiEdgeShapeTracker2D.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiBoxShapeTracker.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiCapsuleShapeTracker.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiMeshShapeTracker.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiShapeTracker.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiSphereShapeTracker.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiTerrainShapeTracker.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ObiCollider.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ObiCollider2D.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ObiColliderBase.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ObiCollisionMaterial.cs" />
+    <Compile Include="Assets\Obi\Scripts\Collisions\ObiRigidbody.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiAerodynamicConstraintBatch.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiBendConstraintBatch.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiConstraintBatch.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiDistanceConstraintBatch.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiPinConstraintBatch.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiSkinConstraintBatch.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiTetherConstraintBatch.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiVolumeConstraintBatch.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ObiAerodynamicConstraints.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ObiBatchedConstraints.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ObiBendingConstraints.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ObiDistanceConstraints.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ObiPinConstraints.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ObiSkinConstraints.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ObiTetherConstraints.cs" />
+    <Compile Include="Assets\Obi\Scripts\Constraints\ObiVolumeConstraints.cs" />
+    <Compile Include="Assets\Obi\Scripts\Coroutines\CoroutineJob.cs" />
+    <Compile Include="Assets\Obi\Scripts\Coroutines\EditorCoroutine.cs" />
+    <Compile Include="Assets\Obi\Scripts\DataStructures\ObiParticleCache.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterMaterial.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterMaterialFluid.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterMaterialGranular.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterShape.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterShapeCube.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterShapeDisk.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterShapeEdge.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterShapeImage.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterShapeSphere.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterShapeSquare.cs" />
+    <Compile Include="Assets\Obi\Scripts\Emitter\ParticleAdvector.cs" />
+    <Compile Include="Assets\Obi\Scripts\InspectorButtonAttribute.cs" />
+    <Compile Include="Assets\Obi\Scripts\Oni.cs" />
+    <Compile Include="Assets\Obi\Scripts\Solver\IObiSolverClient.cs" />
+    <Compile Include="Assets\Obi\Scripts\Solver\ObiAnimatorController.cs" />
+    <Compile Include="Assets\Obi\Scripts\Solver\ObiArbiter.cs" />
+    <Compile Include="Assets\Obi\Scripts\Solver\ObiSolver.cs" />
+    <Compile Include="Assets\Obi\Scripts\Solver\ObiSolverData.cs" />
+    <Compile Include="Assets\Obi\Scripts\Utils\Forces\ObiAmbientForceZone.cs" />
+    <Compile Include="Assets\Obi\Scripts\Utils\Forces\ObiExternalForce.cs" />
+    <Compile Include="Assets\Obi\Scripts\Utils\Forces\ObiSphericalForceZone.cs" />
+    <Compile Include="Assets\Obi\Scripts\Utils\ObiFluidSplatter.cs" />
+    <Compile Include="Assets\Obi\Scripts\Utils\ObiFoamGenerator.cs" />
+    <Compile Include="Assets\Obi\Scripts\Utils\ObiParticleBaker.cs" />
+    <Compile Include="Assets\Obi\Scripts\Utils\ObiParticleGridDebugger.cs" />
+    <Compile Include="Assets\Obi\Scripts\Utils\ObiParticleHandle.cs" />
+    <Compile Include="Assets\Obi\Scripts\Utils\ObiProfiler.cs" />
+    <Compile Include="Assets\Obi\Scripts\Utils\ObiUtils.cs" />
+    <Compile Include="Assets\Scripts\AddCondiment.cs" />
     <Compile Include="Assets\Scripts\FollowCtrl.cs" />
     <Compile Include="Assets\Scripts\HandRotate.cs" />
     <Compile Include="Assets\Scripts\HeroMove.cs" />
     <Compile Include="Assets\Scripts\HeroRotate.cs" />
     <Compile Include="Assets\Scripts\LeftHandCtrl.cs" />
     <Compile Include="Assets\Scripts\ObjShowRim.cs" />
+    <Compile Include="Assets\Scripts\OpenFire.cs" />
+    <Compile Include="Assets\Scripts\OpenWater.cs" />
+    <Compile Include="Assets\Scripts\PourWater.cs" />
     <Compile Include="Assets\Scripts\RightHandCtrl.cs" />
     <Compile Include="Assets\Scripts\StateControl.cs" />
     <Compile Include="Assets\Scripts\UICtrl.cs" />
     <Compile Include="Assets\Scripts\updateState.cs" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\FluidColorsOpaque.shader" />
+    <None Include="Assets\Obi\Plugins\libOni.bundle\Contents\Resources\CMakeLists.txt" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\FluidColorsBlend.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\ParticleShader.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\DielectricFluidShader.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\StandardBackfaces.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\ObiParticles.cginc" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\OpaqueFluidShader.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\NormalReconstruction.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\SimpleParticleShader.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\FluidShader.shader" />
+    <None Include="Assets\Liquid Particle Systems\uLiquid - Readme.txt" />
     <None Include="Assets\Resources\Shaders\RimLightSpce.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\FluidThickness.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\LitParticles.shader" />
     <None Include="Assets\Resources\Shaders\RimLightSpecBump.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\ScreenSpaceCurvatureFlow.shader" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\UnityStandardCoreForwardSimpleBackfaces.cginc" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\FluidShaderFlat.shader" />
+    <None Include="Assets\Kitchen_Cooking_FX\Kitchen_Cooking_FX - Documentation.txt" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\UnityStandardCoreBackfaces.cginc" />
+    <None Include="Assets\Obi\Resources\ObiMaterials\UnityStandardCoreForwardBackfaces.cginc" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/yaolu/Documents/GitHub/Food-VR-Game/vr-pro/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/zhouxinyi/GitHub/Food-VR-Game/vr-pro/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/yaolu/Documents/GitHub/Food-VR-Game/vr-pro/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/zhouxinyi/GitHub/Food-VR-Game/vr-pro/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/yaolu/Documents/GitHub/Food-VR-Game/vr-pro/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/zhouxinyi/GitHub/Food-VR-Game/vr-pro/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/yaolu/Documents/GitHub/Food-VR-Game/vr-pro/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/zhouxinyi/GitHub/Food-VR-Game/vr-pro/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/yaolu/Documents/GitHub/Food-VR-Game/vr-pro/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/zhouxinyi/GitHub/Food-VR-Game/vr-pro/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -293,13 +399,13 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/yaolu/Documents/GitHub/Food-VR-Game/vr-pro/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/zhouxinyi/GitHub/Food-VR-Game/vr-pro/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/yaolu/Documents/GitHub/Food-VR-Game/vr-pro/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/zhouxinyi/GitHub/Food-VR-Game/vr-pro/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/yaolu/Documents/GitHub/Food-VR-Game/vr-pro/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/zhouxinyi/GitHub/Food-VR-Game/vr-pro/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
