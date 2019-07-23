@@ -65,12 +65,12 @@ public class UICtrl : MonoBehaviour
             info_obj_text.text = "Object Info: " + LeftHandCtrl.infoObject.name;
         }
 
-        current_state.text = "Current Step: " + (StateControl.getStateName());
-        next_state.text = "Next Step: " + StateControl.getNextStateName();
+        current_state.text = "已完成步骤: " + (StateControl.getStateName());
+        next_state.text = "下一步: " + StateControl.getNextStateName();
 
         if(StateControl.getStateId() + 1 < StateControl.FINISHED)
         {
-            total_cook_time_text.text = "游戏时长: " + Mathf.Round(Time.time) + " 秒";
+            total_cook_time_text.text = "游戏时长: " + Mathf.Round(Time.timeSinceLevelLoad) + " 秒";
         }
         else if (cook_already_finished == false)
         {
@@ -81,7 +81,7 @@ public class UICtrl : MonoBehaviour
 
         if(StateControl.getStateId() < StateControl.OPEN_FIRE)
         {
-            fire_time_text.text = "尚未开始烹煮";
+            fire_time_text.text = ""/*"尚未开始烹煮"*/;
         }
         else if(StateControl.getStateId() >= StateControl.OPEN_FIRE && StateControl.getStateId() < StateControl.CLOSE_FIRE)
         {
@@ -96,7 +96,7 @@ public class UICtrl : MonoBehaviour
         }
         else if(!fire_already_closed)
         {
-            fire_time_text.text = "烹煮完成，总烹煮时长为"+ Mathf.Round(Time.time - fire_time) + "秒";
+            fire_time_text.text = "烹煮完成，共"+ Mathf.Round(Time.time - fire_time) + "秒";
             fire_already_closed = true;
         }
 

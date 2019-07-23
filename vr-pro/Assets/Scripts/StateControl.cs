@@ -20,7 +20,7 @@ public class StateControl : MonoBehaviour
     public const int FINISHED = 13;
 
     static string[] orderState = {
-        "IDLE", "抓番茄", "放到锅里", "拿锅去水池", "按放水开关", "拿锅去灶台", "按开火开关,等待烹煮20秒","加入调味品","及时关火","将番茄浓汤装入碗中","将碗装入餐盘","摆放餐具","送餐","完成"
+        "开始烹饪", "抓番茄", "放到锅里", "拿锅去水池", "按放水开关", "拿锅去灶台", "按开火开关,等待烹煮20秒","加入调味品","及时关火","将番茄浓汤装入碗中","将碗装入餐盘","摆放餐具","送餐","完成"
     };
     static int state = 0;
 
@@ -33,7 +33,12 @@ public class StateControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Do nothing
+        if(state == FINISHED-1)
+        {
+            System.Threading.Thread.Sleep(2000);
+            SceneSwitch sceneSwitch = new SceneSwitch();
+            sceneSwitch.Switch(2);
+        }
     }
 
     public static void nextState()
