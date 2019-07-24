@@ -4,7 +4,16 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 public class RightHandCtrl : MonoBehaviour
 {
-  
+    private SteamVR_TrackedObject trackedObj;
+    private SteamVR_Controller.Device Controller
+    {
+        get { return SteamVR_Controller.Input((int)trackedObj.index); }
+    }
+    private void Awake()
+    {
+        trackedObj = GetComponent<SteamVR_TrackedObject>();
+    }
+
     public GameObject Touchhighlightpoiont;
     public GameObject hero_controller;
 
@@ -126,7 +135,7 @@ public class RightHandCtrl : MonoBehaviour
     void CheckChosenObj()
     {
         // 1
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Controller.GetPressDown(SteamVR_Controller.ButtonMask.Trigger))
         {
             Debug.Log("Mouse Left Button Down");
             if (collidingObject)
@@ -138,7 +147,7 @@ public class RightHandCtrl : MonoBehaviour
 
 
         // 2
-        if (Input.GetKeyUp(KeyCode.Mouse0))
+        if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
         {
             if (objectInHand)
             {

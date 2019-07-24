@@ -5,6 +5,16 @@ using UnityEngine.EventSystems;
 
 public class LeftHandCtrl : MonoBehaviour
 {
+    private SteamVR_TrackedObject trackedObj;
+    private SteamVR_Controller.Device Controller
+    {
+        get { return SteamVR_Controller.Input((int)trackedObj.index); }
+    }
+    private void Awake()
+    {
+        trackedObj = GetComponent<SteamVR_TrackedObject>();
+    }
+
     public GameObject Touchhighlightpoiont;
 
     public GameObject Walkhighlightpoint;
@@ -41,7 +51,7 @@ public class LeftHandCtrl : MonoBehaviour
 
     void CheckInput()
     {
-        if (Input.GetKeyUp(KeyCode.Mouse1))
+        if (Controller.GetPress(SteamVR_Controller.ButtonMask.Trigger))
         {
             // 点击UI时不触发场景物体的响应
             if (EventSystem.current.IsPointerOverGameObject())
