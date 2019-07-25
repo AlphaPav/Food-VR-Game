@@ -26,8 +26,8 @@ public class OpenWater : MonoBehaviour
             Color col = particle2.GetComponent<MeshRenderer>().material.GetColor("_SpecColor");
             if (col.g > 0)
             {
-                col.g -= 0.0001f;
-                col.b -= 0.0001f;
+                col.g -= 0.001f;
+                col.b -= 0.001f;
                 Debug.Log(col);
                 particle2.GetComponent<MeshRenderer>().material.SetColor("_SpecColor", col);
 
