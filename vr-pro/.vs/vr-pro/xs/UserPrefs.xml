@@ -1,5 +1,12 @@
 ﻿<Properties StartupConfiguration="{66C89E85-18D1-B66D-0090-F74747AE63AA}|">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ObjShowRim.cs">
+    <Files>
+      <File FileName="Assets/Scripts/updateState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SceneSwitch.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/StateControl.cs" Line="27" Column="53" />
+      <File FileName="Assets/Scripts/ObjShowRim.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
